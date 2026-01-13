@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #0f0f0f;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #1f1f1f;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+button:active {
+  background: #333;
+}
+
+.card {
+  background: #1a1a1a;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 12px;
+  max-width: 400px;
+  text-align: left;
+}
